@@ -1,2 +1,2 @@
-# stugsajten-2018
+# Stugsajten (2018)
 Övningssajt i kursen Webbutveckling 1.
