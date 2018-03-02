@@ -38,6 +38,17 @@ header, nav, main, footer {
   grid-column: 1 / 2;
 }
 
+.social-media {
+  letter-spacing: 10px;
+  width: 154px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-media a {
+  color: black;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -47,6 +58,18 @@ body {
 footer {
   background-color: #000000;
   color: #ffffff;
+}
+
+.google-map {
+  padding: 20px;
+  width: 440px;
+  float: left;
+}
+
+.contact {
+  padding: 20px;
+  width: 440px;
+  float: right;
 }
 
 @media screen and (min-width: 960px) {
