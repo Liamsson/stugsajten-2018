@@ -6,6 +6,8 @@
 - [x] Typsnitt
 - [x] Bakgrundsbild
 - [x] Grundläggande struktur/layout
+- [x] Font Awesome
+- [x] Länkar till sociala medier
 - [x] Meny
 - [ ] Sidfot
 - [ ] Startsidan innehåll
@@ -13,4 +15,3 @@
 - [ ] Detaljsida för stuga
 - [ ] Bokningsformulär
 - [ ] Galleri
-- [ ] ...
