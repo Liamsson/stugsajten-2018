@@ -6,8 +6,13 @@
   min-height: 100vh;
 }
 
-main p:first-child {
-  margin: 0;
+main p:first-child, main h2:first-child {
+  margin-top: 0;
+}
+
+main img {
+  max-width: 100%;
+  max-height: auto;
 }
 
 nav ul, nav ul li {
