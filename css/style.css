@@ -11,8 +11,12 @@ main p:first-child, main h2:first-child {
 }
 
 main img {
-  max-width: 100%;
-  max-height: auto;
+  width: 100%;
+  height: auto;
+}
+
+main p {
+  text-align: justify;
 }
 
 nav ul, nav ul li {
@@ -51,7 +55,6 @@ header, nav, main, footer {
 main {
   padding-left: 10px;
   padding-right: 10px;
-  text-align: justify;
 }
 
 .social-media {
