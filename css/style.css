@@ -44,8 +44,11 @@ nav ul li a {
 h1 {
   font-size: 4em;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
   word-break: break-all;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
 }
 
 header, nav, main, footer {
