@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Stugsajten - Våra stugor</title>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/boka-stuga.css" rel="stylesheet" />
+ 
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+  <link href="images/favicon.png" rel="shortcut icon" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Radley:ital@0;1&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Stugsajten</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="vara-stugor.html">Våra stugor</a></li>
+        <li><a href="fotogalleri.html">Fotogalleri</a></li>
+        <li><a href="boka-stuga.html">Boka stuga</a></li>
+      </ul>
+      <p class="social-media">
+        <a href="http://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="http://www.twitter.com"><i class="fab fa-twitter-square fa-3x"></i></a>
+        <a href="http://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+      </p>
+    </nav>
+    <main>
+      <h2>Boka stuga</h2>
+
+
+      <form>
+        <fieldset>
+          <legend>Dina Kontaktuppgifter</legend>
+          <div class="upg">
+            <div class="tv">
+              <label for="namn">Namn:</label> <br/>
+              <label for="email">E-post:</label>
+            </div>
+
+            <div class="th">
+            <input type="text" name="namn" id="namn" placeholder="Förnamn Efternamn"/> <br/>
+            <input type="email" name="email" id="email" placeholder="E-post" required>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <form>
+        <fieldset>
+          <legend>Din bokning</legend>
+          <div class="datum">
+            <div class="tv">
+              <label for="andag" class="tvt">Ankomst:</label> <br/>
+              <label for="avdag"class tvt>Avresa:</label> <br/>
+              <br/>
+              
+              <label>Hämntning:</label><br/>
+
+          <input type="radio" name="radio" id="flyg" value="flyg" class="bot" checked>
+          <label for="flyg">Flygplats</label><br/>
+
+          <input type="radio" name="radio" id="train" value="train" class="bot">
+          <label for="train">Järnvägs</label><br/>
+
+          <input type="radio" name="radio" id="ej" value="ej" class="bot">
+          <label for="ej">Behövs ej</label><br/>
+
+          <input type="checkbox" name="clean" id="clean" value="clean" class="bot">
+          <label for="clean">Städning</label>
+
+            </div>
+            <div class="th">
+              <input type="date" name="andag" id="andag" class="th"><br/>
+              <input type="date" name="avdag" id="avdag" class="th"><br/>
+            </div>
+          </div>         
+        </fieldset>
+      </form>
+     <a href="Thanks.html"> <button><h2>Skicka</h2></button> </a>
+
+
+
+</body>
+</html>

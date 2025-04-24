@@ -1,0 +1,32 @@
+.upg{
+    width: 300px;
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            gap: 10px 10px;
+}
+.datum{
+    width: 300px;
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            gap: 10px 10px;
+}
+form{
+    width: 350px;box-sizing: border-box;
+}
+.th{
+    width: 100%;
+}
+
+label{
+    margin-bottom: 10px;
+}
+.bot{
+    margin-bottom: 10px;
+} 
+button{
+    background-color: #224870;
+    width: 350px;
+    height: 35px;
+    text-decoration: none;
+}
+    

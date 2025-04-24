@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Stugsajten - Våra stugor</title>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/flexslider.css" rel="stylesheet">
+ 
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+  <link href="images/favicon.png" rel="shortcut icon" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Radley:ital@0;1&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Stugsajten</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="vara-stugor.html">Våra stugor</a></li>
+        <li><a href="fotogalleri.html">Fotogalleri</a></li>
+        <li><a href="boka-stuga.html">Boka stuga</a></li>
+      </ul>
+      <p class="social-media">
+        <a href="http://www.facebook.com"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://x.com/"><i class="fa-brands fa-x-twitter fa-3x"></i></a>
+        <a href="http://www.instagram.com"><i class="fab fa-instagram fa-3x"></i></a>
+        <a href="https://www.youtube.com/watch?v=V092l5FyDR8"><i class="fa-brands fa-youtube fa-3x"></i></a>
+      </p>
+    </nav>
+    <main>
+      <h2>Fotogalleri</h2>
+      <p>Här kan du titta på några bilder från våra stugor och den omgivande miljön.</p>
+      
+      <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    
+      <script src="js/modernizr.js"></script>
+
+      <div id="main" role="main">
+          <section class="slider">
+            <div class="flexslider">
+              <ul class="slides">
+                <li data-thumb="images/stuga1.jpg">
+                  <img src="images/stuga1.jpg" />
+                </li>
+                <li data-thumb="images/stuga2.jpg">
+                  <img src="images/stuga2.jpg" />
+                </li>
+                <li data-thumb="images/stuga3.jpg">
+                  <img src="images/stuga3.jpg" />
+                </li>
+                <li data-thumb="images/stuga4.jpg">
+                  <img src="images/stuga4.jpg" />
+                </li>
+              </ul>
+            </div>
+          </section>
+      </div>
+
+ 
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+ <script defer src="js/jquery.flexslider-min.js"></script>
+
+ <script type="text/javascript">
+   $(function(){
+     SyntaxHighlighter.all();
+   });
+   $(window).load(function(){
+     $('.flexslider').flexslider({
+       animation: "slide",
+       controlNav: "thumbnails",
+       start: function(slider){
+         $('body').removeClass('loading');
+       }
+     });
+   });
+</script>
+</body>
+</html>

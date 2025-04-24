@@ -1,0 +1,22 @@
+.container2 {
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+   
+    grid-template-columns: 300px auto;
+    grid-template-rows: 200px auto 250px;
+    background-color: rgba(255,255,255,0.75);
+    
+  }
+  h1{
+    text-align: center;
+    padding-top: 120px;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  .fa-thumbs-up{
+    padding-left: 250px;
+  }
